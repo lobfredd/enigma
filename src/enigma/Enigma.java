@@ -70,7 +70,7 @@ public class Enigma {
             rot1.rotate();
             rot2.rotate();
         }
-        if (rot3.isOnNotch()){
+        else if (rot3.isOnNotch()){
             rot2.rotate();
         }
         rot3.rotate();
